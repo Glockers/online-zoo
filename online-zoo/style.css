@@ -589,21 +589,15 @@ button {
 .testimonials__column{
   width: 268px;
   height: 391px;
-
-
   border: 5px solid transparent;
-  border-image: linear-gradient(#FEBDABBD, #F3A9F8,#E0D8F0,#EAF7FE,#EAF7FE   );
-  border-image-slice: 1;
+  background-image: linear-gradient(#f5f7f6, #f5f7f6), linear-gradient( to right bottom, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #e0d8f0 80.49%, #eaf7fe 127.9%, #eaf7fe 149.54% ), linear-gradient( 315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #e0d8f0 80.49%, #eaf7fe 127.9%, #eaf7fe 149.54% );
   border-radius: 20px;
+  background-clip: content-box, border-box;
 }
 
 .testimonials__card{
   height: 100%;
   padding: 15px 15px 19px 16px;
-  background-color: #F1F3F2;
-
-  /* margin-left: 15px;
-  margin-right: 15px; */
 }
 
 
@@ -817,13 +811,20 @@ button {
   height: 42px;
   padding: 10px 7px 10px 10px;
   border-radius: 2px;
-  border: 0.7px solid orange;
+  border: 0.7px solid red;
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
   color: #BDBDBD;
   background: #111115;
 }
+
+.footer-input:focus{
+  outline: none;
+  border: 0.7px solid green;
+}
+
+
 
 .footer-submit{
   width: 120px;
@@ -837,6 +838,7 @@ button {
   font-weight: 400;
 }
 
+
 .right-container-subtitle{
   margin-bottom: 14px;
 }
@@ -844,6 +846,7 @@ button {
 .footer-submit{
   margin-left: 8px;
 }
+
 
 .author-footer{
   text-align: right;
@@ -855,3 +858,5 @@ button {
   line-height: 130%;
   color: #FFFFFF;
 }
+
+
