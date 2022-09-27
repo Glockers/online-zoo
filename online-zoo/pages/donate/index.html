@@ -21,19 +21,19 @@
     <header class="header">
         <div class="header-wrapper">
           <div class="left-container">
-            <h1 class="logo" onclick="location.replace('/')">
+            <h1 class="logo" onclick="location.replace('../../index.html')">
               <span>PetStory online</span>
               <img class="bamboo" src="../../assets/icons/bamboo.svg" alt="bamboo" />
             </h1>
             <nav class="header-nav">
               <ul class="nav-container">
                 <li class="nav-item">
-                  <a class="nav-item-active" href="">About</a>
+                  <a class="nav-item-active" style="color:white" href="">About</a>
                 </li>
-                <li class="nav-item"><a href="">Map</a></li>
-                <li class="nav-item"><a href="">Zoos</a></li>
-                <li class="nav-item"><a href="">Donate</a></li>
-                <li class="nav-item"><a href="">Contact us</a></li>
+                <li class="nav-item"><a href="#">Map</a></li>
+                <li class="nav-item"><a href="#">Zoos</a></li>
+                <li class="nav-item"><a style="color:orange" href="#">Donate</a></li>
+                <li class="nav-item"><a href="#">Contact us</a></li>
               </ul>
             </nav>
           </div>
@@ -56,19 +56,48 @@
                   <h2 class="title_donate-container">Pick and feed a friend</h2>
                   <p class="subtitle_donate-container">We know the animals bring you joy, and in these extraordinary times, we’re glad.</p>
                   <div class="image__donate-animals">
-                      
+                    <div class="donate__number_wrapper">
+                      <div class="donate__number">
+                        <p class="number_panda">4</p>
+                        <p class="text_panda">Panda diet for the day.</p>
+                      </div>
+                      <img src="../../assets/images/x_icon.png" alt="">
+                    </div>
+
+                    <img class="donate-progress" src="../../assets/images/animals-widget.png" alt="">
                   </div>
 
                   <p class="donate__text-amount">Amount</p>
                   <img src="../../assets/images/line-progress.png" alt="">
-                  <input placeholder="Another amount">
-                  <div class="donate__radiobuttons">
-                    <label for=""></label>
-                    <label for=""></label>
-
+                  <div class="donate__buttons">
+                    <div class="wrapper__another-amount">
+                      <input placeholder="Another amount" class="another_amount input">
+                      <img src="../../assets/icons/dollar.svg" alt="">
+                    </div>
+                    <button class="orange-button donate__button">Feed a friend now</button>
+                    <div class="donate__radiobuttons">
+                      <div class="radiobutton-item">
+                        <input
+                          class="time"
+                          id="radio-1"
+                          type="radio"
+                          name="price"
+                          value="monthly"
+                        /><label for="radio-1">Monthly</label>
+                      </div>
+                      <div class="radiobutton-item">
+                        <input
+                          class="time"
+                          id="radio-2"
+                          type="radio"
+                          name="price"
+                          value="once"
+                          checked
+                        /><label for="radio-2">Once</label>
+                      </div>
+                    </div>
+                    <p class="donate__shared">Share with your friends on social networks </p>
                   </div>
-                  <button class="orange-button donate__button">Feed a friend now</button>
-                  <p class="donate__shared">Share with your friends on social networks </p>
                 </div>
             </div>
 
@@ -77,7 +106,7 @@
     <footer class="footer">
         <div class="footer__container">
           <div class="footer-left_container">
-            <h1 class="logo" onclick="location.replace('/')">
+            <h1 class="logo" onclick="location.replace('../../index.html')">
               <span>PetStory online</span>
               <img class="bamboo" src="../../assets/icons/bamboo.svg" alt="bamboo" />
             </h1>
@@ -127,7 +156,7 @@
           <div class="footer-right-container">
             <div class="info-right">
               <h2 class="right-container-subtitle">Subscribe to our news</h2>
-              <input type="email" class="footer-input" value="Enter your email">
+              <input type="email" class="footer__input input" required placeholder="Enter your email">
               <button class="footer-submit">Submit</button>
             </div>
            

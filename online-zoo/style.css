@@ -373,6 +373,7 @@ button {
 
 .pets-button:active {
   transform: scale(0.9);
+  background-color: green;
 }
 
 .pets-button-left {
@@ -806,7 +807,7 @@ button {
   color: #FFFFFF;
 }
 
-.footer-input{
+.footer__input{
   width: 228px;
   height: 42px;
   padding: 10px 7px 10px 10px;
@@ -819,15 +820,27 @@ button {
   background: #111115;
 }
 
-.footer-input:focus{
+/* .footer-input:focus{
+  outline: none;
+  border: 0.7px solid green;
+} */
+
+.input::placeholder {
+  color: #bdbdbd;
+  font-size: 16px;
+}
+
+.input:focus{
   outline: none;
   border: 0.7px solid green;
 }
 
-
+.input:focus::-webkit-input-placeholder {
+  color: #4b9200;
+}
 
 .footer-submit{
-  width: 120px;
+  width: 118px;
   height: 42px;
   background: #F1F3F2;
   border: 1px solid #4B9200;

@@ -84,7 +84,122 @@
     margin-bottom: 60px;
 }
 
+.image__donate-animals{
+    display: flex;
+    height: 246px;
+    width: 976px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 64px;
+    margin-bottom: 48px;
+}
+.donate__number{
+    margin-top: 105px;
+    text-align: center;
+}
+
+.number_panda{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 72px;
+}
+
+.text_panda{
+
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.donate__number_wrapper{
+    display: flex;
+}
+.donate__number_wrapper > img{
+    margin-top: 130px;
+    width: 14px;
+    height: 14px;
+}
+
+.donate__buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    gap:30px;
+}
+
+.donate__radiobuttons{
+
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.donate__radiobuttons label {
+    position: relative;    
+    user-select: none;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 0;
+    padding-left: 25px;
+    line-height: 18px;
+   
+  }
+  .time {
+    display: none;
+  }
+  .radiobutton-item label:before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 0;
+    border: 1px solid #fe9013;
+    border-radius: 50%;
+  }
+  
+  .time:checked + label:before {
+    border: 1px solid #4b9200;
+    background-color: #4b9200;
+  }
+  
+  .radiobutton-item label:hover:before {
+    filter: brightness(120%);
+  }
+  
+  .donate__radiobuttons label:before {
+    content: "";
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #fe9013;
+  }
+  
+  .another_amount{
+    position: relative;
+    width: 268px;
+    height: 54px;
+    border: 1px solid #929699;
+    padding-left: 9px;
+  }
+
+  .wrapper__another-amount{
+    position: relative;
+  }
+
+  .wrapper__another-amount > img{
+    position: absolute;
+    top: 17px;
+    right: 10px;
+  }
 
 
-
-
+  .donate__shared{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #333B41;
+  }
