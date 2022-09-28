@@ -855,7 +855,9 @@ button {
   font-weight: 400;
 }
 
-
+.footer-submit:active{
+  transform: scale(0.9);
+}
 .right-container-subtitle{
   margin-bottom: 14px;
 }
