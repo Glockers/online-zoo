@@ -1,0 +1,48 @@
+@media (max-width: 1000px) {
+    
+}
+
+
+@media (max-width: 1160px) {
+    .backstage-flower{
+        display: none;
+    }
+
+    
+}
+
+@media (max-width: 1430px) {
+
+  .pet-item{
+    max-width: 314px;
+    max-height: 314px;
+
+  }
+
+  .pet-image{
+    max-width: 294x;
+    max-height: 294px;
+
+  }
+  .pet-item:hover .pet-image {
+    max-width: 314x;
+    max-height: 314px;
+    margin: 0;
+  }
+  
+  .pets-button{
+    position: relative;
+
+  }
+  .pets-button-right{
+  }
+
+  .pets-button-left{
+
+  }
+
+  .pets-container{
+  grid-template-columns: repeat(3, 314px);
+
+  }
+}

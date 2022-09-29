@@ -130,6 +130,11 @@
     gap:30px;
 }
 
+
+.donate__button{
+
+    border-radius: 5px;
+}
 .donate__radiobuttons{
 
     display: flex;

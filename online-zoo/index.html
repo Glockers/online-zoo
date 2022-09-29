@@ -11,14 +11,17 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="pages/media/media.css" />
+
     <link rel="shortcut icon" href="./assets/favicon.svg" type="image/svg" />
+    
     <script src="./script.js" async></script>
     <title>Online zoo</title>
   </head>
 
   <body>
     <header class="header">
-      <div class="header-wrapper">
+      <div class="header-wrapper wrapper">
         <div class="left-container">
           <h1 class="logo" onclick="location.replace('/')">
             <span>PetStory online</span>
@@ -57,12 +60,14 @@
         </article>
       </section>
       <section class="backstage">
-        <article class="backstage-wrapper">
-          <img
-            class="backstage-cap"
+        <article class="backstage-wrapper wrapper">
+          <div class="backstage-cap">
+            <img class="backstage-cap__img"
             src="./assets/images/bamboo-cap.png"
             alt="bamboo-cap"
           />
+          </div>
+         
           <article class="backstage-content">
             <h2 class="backstage-title">
               The Backstage of the Wilderness World.
@@ -88,7 +93,7 @@
         />
       </section>
       <section class="pets">
-        <article class="pets-container">
+        <article class="pets-container wrapper">
           <article class="pet-item">
             <img
               src="./assets/images/pands.png"
@@ -195,7 +200,7 @@
         />
       </section>
       <section class="pick">
-        <div class="pick-container">
+        <div class="pick-container wrapper">
           <div class="pick-content">
             <div class="pick-block1">
               <h2 class="pick-title">Pick and feed a friend</h2>
