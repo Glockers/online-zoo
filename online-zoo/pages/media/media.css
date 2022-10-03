@@ -1,0 +1,399 @@
+@media (min-width: 1600px) {
+    body {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1430px) {
+
+    .backstage-flower {
+        display: none;
+    }
+
+    .pets {
+        height: 950px;
+        padding-top: 0px;
+    }
+
+    .pets-container {
+        height: 742px;
+    }
+
+    .pet-image-left {
+        display: none;
+    }
+
+    .pet-image-left-2 {
+        display: block;
+        position: absolute;
+        left: -192px;
+        bottom: 0;
+        height: 202px;
+    }
+
+    .pet-image-right {
+        height: 180px;
+    }
+
+    .pets-choose-button {
+        display: block;
+        margin: 0 auto;
+        letter-spacing: -1px;
+        border-radius: 25px;
+    }
+
+    .pets-container {
+        grid-template-columns: repeat(3, 294px);
+        grid-template-rows: repeat(2, 354px);
+        row-gap: 85px;
+        margin-bottom: 50px;
+    }
+
+    .pet-item {
+        max-width: 294px;
+        max-height: 294px;
+    }
+
+    .pet-image {
+        max-width: 274x;
+        max-height: 274px;
+    }
+
+    .pets-button {
+        top: 360px
+    }
+
+    .pets-button-right {
+        left: 585px;
+    }
+
+    .pets-button-left {
+        left: 355px;
+    }
+
+    .pet-item:hover {
+        max-height: 354px;
+    }
+
+    .pet-item:hover .pet-image {
+        max-width: 294x;
+        max-height: 292px;
+    }
+
+    .pet-item:hover .pet-info {
+        height: 60px;
+        padding-top: 6px;
+    }
+}
+
+@media (max-width: 1180px) {
+
+    .header {
+        width: 100%;
+    }
+
+    .panda {
+        height: 584px;
+    }
+
+    .panda-wrapper {
+        padding-top: 64px;
+        padding-right: 86px;
+    }
+
+    .panda-title {
+        left: -25px;
+        max-width: 400.25px;
+        height: 320px;
+        font-size: 85px;
+    }
+
+    .panda-button {
+        margin-top: 53px;
+    }
+
+    .circle {
+        width: 367px;
+        height: 367px;
+        top: 15px;
+        left: -58px;
+    }
+
+    .backstage {
+        height: 615px;
+        padding: 100px 0;
+    }
+
+    .pick {
+        padding: 30px 30px 50px 30px;
+        height: 915px;
+    }
+
+    .pick-container {
+        height: 835px;
+        padding: 30px;
+        background: rgba(253, 253, 255, 0.52);
+        border-radius: 20px;
+        margin-bottom: 50px;
+    }
+
+    .pick-pretext {
+        margin-top: 20px;
+    }
+
+    .pick-block2 {
+        margin-top: 30px;
+    }
+
+    .pick-works-wrapper {
+        margin-bottom: 100px;
+    }
+
+    .testimonials__container {
+        width: 100%;
+        height: 599px;
+        margin: 0 auto;
+    }
+
+    .testimonials__row {
+        justify-content: space-evenly;
+    }
+
+    .testimonials__text {
+        font-size: 15px;
+    }
+
+    .testimonials-image-right {
+        height: 350px;
+        bottom: -85px;
+    }
+
+    .testimonials__column {
+        width: 294px;
+        height: 391px;
+    }
+
+    .testimonials__column:nth-child(2) {
+        display: none;
+    }
+
+    .button-testiminials {
+        margin-left: 30px;
+    }
+
+    .footer__container {
+        display: block;
+    }
+
+    .footer-left_container {
+        height: max-content;
+        width: min-content;
+    }
+
+    .middle-container {
+        position: relative;
+        left: 180px;
+        bottom: 10px;
+    }
+
+    .footer-right-container {
+        position: relative;
+        left: 563px;
+        bottom: 370px;
+        width: 100%;
+        max-width: 380px;
+    }
+
+    .footer-author {
+        position: absolute;
+        left: 120px;
+        bottom: -20px;
+    }
+
+    .content-donate {
+        padding-top: 40px;
+        width: 100%;
+        max-width: 1160px;
+    }
+
+    .donate-body {
+        width: 100%;
+        max-width: 1160px;
+        padding: 0 30px;
+    }
+
+    .image__donate-animals {
+        width: 100%;
+    }
+
+    .donate__line-progress {
+        width: 810px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width: 990px) {
+    .header {
+        height: 34px;
+    }
+
+    .header-wrapper {
+        position: absolute;
+        top: 200px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-content: space-between;
+    }
+
+    .header .logo {
+        top: 10px;
+        width: 60px;
+        height: 33px;
+        border: none;
+        font-size: 12px;
+        line-height: 120%;
+        margin-bottom: 30px;
+    }
+
+    .left-container {
+        display: block;
+        position: absolute;
+        top: -210px;
+        margin-left: 100px;
+        padding: 0 100px 20px 0;
+    }
+
+    .header .bamboo {
+        left: 9px;
+        top: 12px;
+        height: 15px;
+    }
+
+    .header .nav-container {
+        display: block;
+    }
+
+    .header .nav-item {
+        margin-bottom: 15px;
+        white-space: nowrap;
+    }
+
+    .header .header-nav {
+        visibility: hidden;
+    }
+
+    .right-container {
+        visibility: hidden;
+        margin-left: 27px;
+        margin-top: 28px;
+        opacity: 0.7;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+
+    .checkbox1:checked~div .logo {
+        color: #f9804b;
+        border: 1px solid #f9804b;
+    }
+
+    .checkbox1:checked~div .left-container {
+        background-color: gray;
+        opacity: 0.7;
+    }
+
+    .checkbox1:checked~div .nav-container {
+        visibility: visible;
+    }
+
+    .checkbox1:checked~div .right-container {
+        visibility: visible;
+    }
+
+    .panda {
+        height: 373px;
+    }
+
+    .panda-container {
+        display: block;
+        position: relative;
+    }
+
+    .panda-wrapper {
+        padding-top: 64px;
+        padding-right: 86px;
+    }
+
+    .panda-title {
+        position: absolute;
+        left: 364px;
+        top: 78px;
+        max-width: 255px;
+        height: 204px;
+        font-size: 54px;
+    }
+
+    .panda-button {
+        position: absolute;
+        left: 15px;
+        top: 225px;
+    }
+
+    .circle {
+        width: 237px;
+        height: 237px;
+        top: 45px;
+        left: 325px;
+    }
+
+    .footer {
+        padding: 12px 20px;
+        height: 258px;
+    }
+
+    .footer-left_container {
+        display: block;
+        height: 240px;
+    }
+
+    .button-footer {
+        margin-top: 32px;
+
+    }
+
+    .footer-list {
+        position: relative;
+        left: 570px;
+        top: -188px;
+    }
+
+    .footer-list a {
+        display: none;
+    }
+
+    .middle-container {
+        position: relative;
+        left: -100px;
+        bottom: 30px;
+    }
+
+    .footer-right-container {
+        width: 200px;
+        height: 93px;
+    }
+
+    .info-right {
+        display: none;
+    }
+
+    .footer-author {
+        position: absolute;
+        left: -190px;
+        bottom: -250px;
+        font-size: 15px;
+    }
+}
