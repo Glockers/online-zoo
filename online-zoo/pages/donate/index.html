@@ -10,14 +10,22 @@
       href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <!-- Подлючение стилей -->
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="../media/panda-media.css">
+    <link rel="stylesheet" href="../media/media.css">
+
+   
+    <!-- Подлючение стилей -->
+
 
     <link rel="shortcut icon" href="assets/favicon.svg" type="image/svg" />
     <script src="./script.js" async></script>
     <title>Donate zoo</title>
 </head>
 <body>
+  
     <header class="header">
         <div class="header-wrapper wrapper">
           <div class="left-container">
@@ -27,7 +35,7 @@
             </h1>
             <nav class="header-nav">
               <ul class="nav-container">
-                <li class="nav-item"><a href="">About</a>
+                <li class="nav-item"><a href="../../index.html">About</a>
                 </li>
                 <li class="nav-item"><a href="#">Map</a></li>
                 <li class="nav-item"><a href="#">Zoos</a></li>
@@ -67,11 +75,41 @@
                   </div>
 
                   <p class="donate__text-amount">Amount</p>
-                  <img src="../../assets/images/line-progress.png" alt="">
-                  <div class="donate__buttons">
+
+                  <!-- ДОНАТ ЛИНИЯ -->
+                  
+                  <div class="donate-range">
+                    <div class="grey-line"></div>
+                    <input type="range" class="donate-range__input" min="1" max="8" value="3" step="1">
+                    <div class="donate-circle">
+                      <div class="range-circle__item"></div>
+                      <div class="range-circle__item"></div>
+                      <div class="range-circle__item"></div>
+                      <div class="range-circle__item"></div>
+                      <div class="range-circle__item"></div>
+                      <div class="range-circle__item"></div>
+                      <div class="range-circle__item"></div>
+                      <div class="range-circle__item"></div>  
+                    </div>
+                  </div>    
+                    
+                  <div class="donate-number">
+                    <div class="donate-number__item">$5000</div> 
+                    <div class="donate-number__item">$2000</div> 
+                    <div class="donate-number__item">$1000</div> 
+                    <div class="donate-number__item">$500</div> 
+                    <div class="donate-number__item">$250</div> 
+                    <div class="donate-number__item">$100</div> 
+                    <div class="donate-number__item">$50</div> 
+                    <div class="donate-number__item">$25</div> 
+                  </div>
+
+                    <!-- ДОНАТ ЛИНИЯ -->
+                  
+                    <div class="donate__buttons">
                     <div class="wrapper__another-amount">
                       <input placeholder="Another amount" type="number" class="another_amount input">
-                      <img src="../../assets/icons/dollar.svg" alt="">
+                      <span class="donate-icon__dollar">$</span>
                     </div>
                     <div class="donate__radiobuttons">
                       <div class="radiobutton-item">
@@ -96,7 +134,7 @@
                     </div>
                     <button class="orange-button donate__button">Feed a friend now</button>
                     <p class="donate__shared">Share with your friends on social networks </p>
-                  </div>
+                    </div>
                 </div>
             </div>
 
@@ -144,7 +182,7 @@
             <nav class="header-nav">
               <ul class="nav-container">
                 <li class="nav-item">
-                  <a class="nav-item-active" href="">About</a>
+                  <a href="../../index.html">About</a>
                 </li>
                 <li class="nav-item"><a href="">Map</a></li>
                 <li class="nav-item"><a href="">Zoos</a></li>
@@ -169,5 +207,6 @@
         
           
     </footer>
+    <script src="./checkInput.js"></script>
 </body>
 </html>
