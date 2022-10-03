@@ -335,12 +335,12 @@
     display: none;
   }
 
-  .pick-item:not(:last-child)::after {
+  .pick-item:not(:first-child)::after {
     /* content: url(http://static.skaip.org/img/emoticons/180x180/f6fcff/penguin.gif); */
     content: url(../../assets/icons/greenLine.svg);
     position: relative;
-    left: 143px;
-    top: -233px;
+    left: -65px;
+    top: -248px;
   }
 
   .pick-item{
