@@ -24,24 +24,22 @@
     <input class="checkbox1 hidden" type="checkbox" id="checkbox1" />
     <label class="hamburger" for="checkbox1"><span class="bar"></span></label>
     <div class="header-wrapper wrapper">
-      <div class="left-container">
-        <a href="">
-          <h1 class="logo">
+      <div class="left-container"><a>
+          <h1 class="logo" onclick="location.replace('/')">
             <span>PetStory online</span>
             <img class="bamboo" src="./assets/icons/bamboo.svg" alt="bamboo" />
           </h1>
-        </a>
-        <nav class="header-nav">
-          <ul class="nav-container">
-            <li class="nav-item">
-              <a class="nav-item-active" href="">About</a>
-            </li>
-            <li class="nav-item"><a href="">Map</a></li>
-            <li class="nav-item"><a href="">Zoos</a></li>
-            <li class="nav-item"><a href="pages/donate/index.html">Donate</a></li>
-            <li class="nav-item"><a href="">Contact us</a></li>
-          </ul>
-        </nav>
+          <nav class="header-nav">
+            <ul class="nav-container">
+              <li class="nav-item">
+                <a class="nav-item-active" href="">About</a>
+              </li>
+              <li class="nav-item"><a href="">Map</a></li>
+              <li class="nav-item"><a href="">Zoos</a></li>
+              <li class="nav-item"><a href="pages/donate/index.html">Donate</a></li>
+              <li class="nav-item"><a href="">Contact us</a></li>
+            </ul>
+          </nav>
       </div>
       <a class="right-container" href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">Designed by
         ©</a>
@@ -340,13 +338,15 @@
   <footer class="footer">
     <div class="footer__container">
       <div class="footer-left_container">
-        <h1 class="logo" onclick="location.replace('/')">
-          <span>PetStory online</span>
-          <img class="bamboo" src="./assets/icons/bamboo.svg" alt="bamboo" />
-        </h1>
-        <a href="pages/donate/index.html">
-          <button class="orange-button button-footer">donate for volunteers</button>
-        </a>
+        <div class="test-container">
+          <h1 class="logo" onclick="location.replace('/')">
+            <span>PetStory online</span>
+            <img class="bamboo" src="./assets/icons/bamboo.svg" alt="bamboo" />
+          </h1>
+          <a href="pages/donate/index.html">
+            <button class="orange-button button-footer">donate for volunteers</button>
+          </a>
+        </div>
 
         <ul class="footer-list">
           <li>
