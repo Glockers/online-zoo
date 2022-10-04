@@ -236,121 +236,233 @@
 
 @media (max-width: 990px) {
 
-    .header {
-        height: 34px;
+    .wrapper {
+        padding: 0 20px;
     }
 
-    .header-wrapper {
-        position: absolute;
-        top: 200px;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-content: space-between;
+    .backstage-cap__img {
+        display: none;
     }
 
-    .header .logo {
-        top: 10px;
-        width: 60px;
-        height: 33px;
-        border: none;
-        font-size: 12px;
-        line-height: 120%;
-        margin-bottom: 30px;
+    .backstage {
+        padding: 60px 0px;
+        height: max-content;
+        overflow: hidden;
+        display: flex;
     }
 
-    .left-container {
-        display: block;
-        position: absolute;
-        top: -210px;
-        margin-left: 100px;
-        padding: 0 100px 20px 0;
+    .backstage-wrapper {
+        justify-content: flex-start;
+        gap: 0px;
+        margin: 0;
+        padding-right: 0px;
     }
 
-    .header .bamboo {
-        left: 9px;
-        top: 12px;
-        height: 15px;
+    .backstage-content {
+        max-width: 495px;
+        height: 367px;
+        word-wrap: break-word;
     }
 
-    .header .nav-container {
-        display: block;
+    .undertitle {
+        margin-top: 20px;
     }
 
-    .header .nav-item {
-        margin-bottom: 15px;
-        white-space: nowrap;
+    .backstage-subtitle {
+        margin-top: 30px;
     }
 
-    .header .header-nav {
-        visibility: hidden;
+    .undersubtitle {
+        margin-top: 20px;
     }
 
-    .right-container {
-        visibility: hidden;
-        margin-left: 27px;
-        margin-top: 28px;
-        opacity: 0.7;
-    }
-
-    .hamburger {
-        display: block;
-    }
-
-
-    .checkbox1:checked~div .logo {
-        color: #f9804b;
-        border: 1px solid #f9804b;
-    }
-
-    .checkbox1:checked~div .left-container {
-        background-color: gray;
-        opacity: 0.7;
-    }
-
-    .checkbox1:checked~div .nav-container {
-        visibility: visible;
-    }
-
-    .checkbox1:checked~div .right-container {
-        visibility: visible;
-    }
-
-    .panda {
-        height: 373px;
-    }
-
-    .panda-container {
-        display: block;
+    .backstage-flower {
         position: relative;
+        display: inline-block;
+        right: -35px;
+        width: 231px;
+        height: 476px;
+        top: -50px;
     }
 
-    .panda-wrapper {
-        padding-top: 64px;
-        padding-right: 86px;
+    .pets {
+        padding: 20px;
+        height: auto;
     }
 
-    .panda-title {
-        position: absolute;
-        left: 364px;
-        top: 78px;
-        max-width: 255px;
-        height: 204px;
-        font-size: 54px;
+    .pets-container {
+        height: max-content;
+        padding: 0px;
+        height: 756px;
     }
 
-    .panda-button {
-        position: absolute;
-        left: 15px;
-        top: 225px;
+    .pets-container {
+        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
     }
 
-    .circle {
-        width: 237px;
-        height: 237px;
-        top: 45px;
-        left: 325px;
+    .pet-item {
+        width: 285px;
+        height: 332px;
     }
-    
+
+    .pet-item:nth-child(n + 5) {
+        display: none;
+    }
+
+    .pets-button {
+        top: 340px;
+    }
+
+    .pets-button-left {
+        left: 225px;
+    }
+
+    .pets-button-right {
+        left: 315px;
+    }
+
+    .pet-item:hover {
+        max-height: max-content;
+    }
+
+    .pet-image {
+        margin: 0px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .pet-item:hover .pet-info {
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-left: 12.5px;
+        height: max-content;
+    }
+
+    .pet-icon-food {
+        top: 0px;
+        right: 8px;
+    }
+
+    .pet-image-right {
+        width: 175px;
+        height: 131px;
+    }
+
+
+    .pet-image-left {
+        display: block;
+        height: 202px;
+    }
+
+    .pet-image-left-2 {
+        display: none;
+    }
+
+    .pets-choose-button {
+        margin: 60px auto;
+    }
+
+    .pick {
+        padding: 20px 0;
+        height: min-content;
+    }
+
+    .p {
+        text-overflow: ellipsis;
+        /* Добавляем многоточие */
+    }
+
+    .pick-container {
+        margin: 0px;
+        padding: 10px 20px 60px 20px;
+        height: min-content;
+    }
+
+    .pick-subtitle {
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .pick-text {
+        max-width: 100%;
+    }
+
+    .pick-works-wrapper {
+        justify-content: center;
+        gap: 42px;
+    }
+
+    .pick-works-wrapper>img {
+        display: none;
+    }
+
+    .pick-item:not(:first-child)::after {
+        /* content: url(http://static.skaip.org/img/emoticons/180x180/f6fcff/penguin.gif); */
+        content: url(../../assets/icons/greenLine.svg);
+        position: relative;
+        left: -65px;
+        top: -248px;
+    }
+
+    .pick-item {
+        width: 168px;
+        height: 168px;
+    }
+
+    .pets-choose-button {
+        margin: 40px auto 0px;
+    }
+
+    .testimonials {
+        padding: 60px 0px 80px;
+        overflow: hidden;
+        height: min-content;
+    }
+
+    .testimonials__container {
+        height: min-content;
+    }
+
+    .testimonials__row {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .testimonials__column {
+        max-width: 100%;
+        width: 600px;
+        height: 109px;
+        margin: 0 20px;
+    }
+
+    .testimonials__card {
+        padding: 15px 28px 8px 12px;
+    }
+
+    .testimonials__text {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 15px;
+        line-height: 120%;
+        pointer-events: none;
+    }
+
+    .line[type="range"] {
+        display: none;
+    }
+
+    .button-testiminials {
+        margin: 40px 25% 0px 25%;
+    }
+
+    .testimonials-image-right {
+        max-width: 149.88px;
+        max-height: 147.15px;
+        right: -33px;
+        bottom: -51px;
+    }
+
     .footer {
         height: 282px;
         padding: 12px 20px;
@@ -420,7 +532,7 @@
         left: 0;
         bottom: 0;
         height: 0;
-        
+
     }
 
     .footer-author {
