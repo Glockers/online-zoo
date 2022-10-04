@@ -73,21 +73,41 @@
           </div>
 
           <p class="donate__text-amount">Amount</p>
-          <img class="donate__line-progress" src="../../assets/images/line-progress.png" alt="">
-          <!-- <div class="price-line">
-            <div class="price-text">$5000</div>
-            <div class="price-text">$2000</div>
-            <div class="price-text">$1000</div>
-            <div class="price-text">$500</div>
-            <div class="price-text">$250</div>
-            <div class="price-text">$100</div>
-            <div class="price-text">$50</div>
-            <div class="price-text">$25</div>
-          </div> -->
+
+          <!-- donate_line -->
+
+          <div class="donate-range">
+            <div class="grey-line"></div>
+            <input type="range" class="donate-range__input" min="1" max="8" value="3" step="1">
+            <div class="donate-circle">
+              <div class="range-circle__item"></div>
+              <div class="range-circle__item"></div>
+              <div class="range-circle__item"></div>
+              <div class="range-circle__item"></div>
+              <div class="range-circle__item"></div>
+              <div class="range-circle__item"></div>
+              <div class="range-circle__item"></div>
+              <div class="range-circle__item"></div>
+            </div>
+          </div>
+
+          <div class="donate-number">
+            <div class="donate-number__item">$5000</div>
+            <div class="donate-number__item">$2000</div>
+            <div class="donate-number__item">$1000</div>
+            <div class="donate-number__item">$500</div>
+            <div class="donate-number__item">$250</div>
+            <div class="donate-number__item">$100</div>
+            <div class="donate-number__item">$50</div>
+            <div class="donate-number__item">$25</div>
+          </div>
+
+          <!-- donate_line -->
+
           <div class="donate__buttons">
             <div class="wrapper__another-amount">
               <input placeholder="Another amount" type="number" class="another_amount input">
-              <img src="../../assets/icons/dollar.svg" alt="">
+              <span class="donate-icon__dollar">$</span>
             </div>
             <div class="donate__radiobuttons">
               <div class="radiobutton-item">
@@ -174,6 +194,7 @@
 
 
   </footer>
+  <script src="./checkInput.js"></script>
 </body>
 
 </html>

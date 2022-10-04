@@ -234,6 +234,55 @@
     }
 }
 
+@media (max-width: 1150px) {
+
+    .content-donate {
+        padding-top: 30px;
+    }
+
+    .subtitle__donate {
+        margin-bottom: 40px;
+    }
+
+    .donate__container {
+        padding: 20px 45px 0 45px;
+    }
+
+    .donate__container>img {
+        width: 810px;
+        height: 40px;
+    }
+
+
+    .donate-body {
+        padding: 0 30px;
+    }
+
+    .donate-range {
+        width: 860px;
+
+    }
+
+    .range-circle__item:nth-child(1) {
+        display: none;
+    }
+
+    .donate-number__item:nth-child(1) {
+        display: none;
+    }
+
+
+    .donate-range__input[type="range"] {
+        width: 827px;
+    }
+
+
+    .grey-line {
+        width: 785px;
+    }
+
+}
+
 @media (max-width: 990px) {
 
     .header {
@@ -657,4 +706,84 @@
         bottom: 0;
         width: 480px;
     }
+}
+
+@media (max-width: 970px) {
+
+    .content-donate {
+        padding-top: 30px;
+        max-height: 1381px;
+    }
+
+    .subtitle__donate {
+        margin-bottom: 30px;
+    }
+
+    .donate__container {
+        padding: 31px 0 31px 0;
+    }
+
+    .donate__container>img {
+        width: 810px;
+        height: 40px;
+    }
+
+
+    .donate-body {
+        padding: 0 20px;
+    }
+
+    .title__donate {
+        font-size: 24px;
+        line-height: 120%;
+        margin-bottom: 20px;
+    }
+
+    .decription__donate {
+        line-height: 140%;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    .title_donate-container {
+        margin-bottom: 20px;
+    }
+
+    .subtitle_donate-container {
+        margin-bottom: 50px;
+    }
+
+    .image__donate-animals {
+        margin-bottom: 41px;
+    }
+
+    .donate-range {
+        width: 600px;
+    }
+
+    .range-circle__item:nth-child(2) {
+        display: none;
+    }
+
+    .range-circle__item:nth-child(3) {
+        display: none;
+    }
+
+    .donate-number__item:nth-child(2) {
+        display: none;
+    }
+
+    .donate-number__item:nth-child(3) {
+        display: none;
+    }
+
+
+    .donate-range__input[type="range"] {
+        width: 565px;
+    }
+
+    .grey-line {
+        width: 520px;
+    }
+
 }
