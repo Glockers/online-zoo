@@ -429,7 +429,7 @@
         border: none;
         font-size: 12px;
         line-height: 120%;
-        margin-bottom: 30px;
+        margin: 2px 0px 0 -33px;
     }
 
     .left-container {
@@ -468,10 +468,11 @@
 
     .hamburger {
         display: block;
+        margin-top: 14px;
+        margin-right: 15px;
     }
 
-
-    .checkbox1:checked~div .logo {
+    /* .checkbox1:checked~div .logo {
         color: #f9804b;
         border: 1px solid #f9804b;
     }
@@ -487,7 +488,7 @@
 
     .checkbox1:checked~div .right-container {
         visibility: visible;
-    }
+    } */
 
     .panda {
         height: 373px;
@@ -505,7 +506,7 @@
 
     .panda-title {
         position: absolute;
-        left: 364px;
+        left: 369px;
         top: 78px;
         max-width: 255px;
         height: 204px;
@@ -514,15 +515,15 @@
 
     .panda-button {
         position: absolute;
-        left: 15px;
-        top: 225px;
+        left: 20px;
+        top: 230px;
     }
 
     .circle {
         width: 237px;
         height: 237px;
         top: 45px;
-        left: 325px;
+        left: 331px;
     }
 
     .wrapper {
@@ -534,10 +535,11 @@
     }
 
     .backstage {
-        padding: 60px 0px;
+        padding: 0;
         height: max-content;
         overflow: hidden;
         display: flex;
+        margin-bottom: 11px;
     }
 
     .backstage-wrapper {
@@ -553,6 +555,10 @@
         word-wrap: break-word;
     }
 
+    .backstage-title {
+        margin: 60px 0 0 4px;
+    }
+
     .undertitle {
         margin-top: 20px;
     }
@@ -562,16 +568,17 @@
     }
 
     .undersubtitle {
-        margin-top: 20px;
+        margin: 20px 0 0 1px;
+        line-height: 32px;
     }
 
     .backstage-flower {
         position: relative;
         display: inline-block;
-        right: -35px;
-        width: 231px;
+        right: -27px;
+        width: auto;
         height: 476px;
-        top: -50px;
+        top: 3px;
     }
 
     .pets {
@@ -580,13 +587,11 @@
     }
 
     .pets-container {
+        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
         height: max-content;
         padding: 0px;
         height: 756px;
-    }
-
-    .pets-container {
-        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+        margin-bottom: 60px;
     }
 
     .pet-item {
@@ -599,7 +604,7 @@
     }
 
     .pets-button {
-        top: 340px;
+        top: 344px;
     }
 
     .pets-button-left {
@@ -637,18 +642,9 @@
         height: 131px;
     }
 
-
-    .pet-image-left {
-        display: block;
-        height: 202px;
-    }
-
     .pet-image-left-2 {
-        display: none;
-    }
-
-    .pets-choose-button {
-        margin: 60px auto;
+        left: -252px;
+        bottom: 0;
     }
 
     .pick {
@@ -667,19 +663,36 @@
         height: min-content;
     }
 
+    .pick-title {
+        font-size: 42px;
+        margin: -5px 0px 0px 0;
+    }
+
     .pick-subtitle {
         max-width: 100%;
-        margin-bottom: 40px;
+        margin: 16px 0 40px 0px;
+        font-size: 22px;
+    }
+
+    .pick-pretext {
+        margin: 43px 0 0;
+        padding: 0;
     }
 
     .pick-text {
         max-width: 100%;
+        margin: 10px 0 0;
+    }
+
+    .pick-works-title {
+        margin-top: -5px;
     }
 
     .pick-works-wrapper {
         justify-content: center;
         gap: 42px;
         max-width: 100%;
+        margin: 20px 0px 70px -12px;
     }
 
     .pick-works-wrapper>img {
@@ -690,8 +703,8 @@
         /* content: url(http://static.skaip.org/img/emoticons/180x180/f6fcff/penguin.gif); */
         content: url(../../assets/icons/greenLine.svg);
         position: relative;
-        left: -65px;
-        top: -248px;
+        left: -75px;
+        top: -253px;
     }
 
     .pick-item {
@@ -700,14 +713,14 @@
     }
 
     .pets-choose-button {
-        margin: 40px auto 0px;
+        margin: 60px auto 81px auto;
     }
 
     .testimonials {
         padding: 60px 0px 80px;
         overflow: hidden;
         height: min-content;
-        height: 919px;
+        height: 668px;
     }
 
     .testimonials__container {
@@ -728,6 +741,7 @@
 
     .testimonials__card {
         padding: 15px 28px 8px 12px;
+        font-size: 15px;
     }
 
     .testimonials__text {
@@ -743,15 +757,20 @@
         display: none;
     }
 
+    .line_scrol {
+        display: none;
+    }
+
     .button-testiminials {
-        margin: 40px 25% 0px 25%;
+        margin: 6px 0 0 200px;
+        width: 37.5%;
     }
 
     .testimonials-image-right {
-        width: 149.88px;
-        height: 189.88px;
-        right: -10px;
-        bottom: -65px;
+        width: 137.88px;
+        height: 198.88px;
+        right: -13px;
+        bottom: -66px;
     }
 
     .footer {
@@ -795,8 +814,12 @@
         margin: 0;
     }
 
+    .footer-list {
+        margin-right: -9px;
+    }
+
     .footer-list li {
-        margin: 0 0 20px 0;
+        margin: -5px 0px 23px 0px;
         height: 26px;
     }
 
@@ -817,7 +840,7 @@
         align-items: flex-end;
         width: max-content;
         margin: 0;
-        bottom: 0;
+        bottom: 2px;
         left: 0;
         height: calc(100% - 170px);
         max-height: 100%;
@@ -835,13 +858,19 @@
 
     .footer-author {
         position: absolute;
-        right: 0;
+        left: 111px;
         bottom: 0;
         width: 480px;
     }
 }
 
 @media (max-width: 970px) {
+
+    .panda-donate {
+        height: 369px;
+        background-position: -272px -66px;
+        background-size: 1373px;
+    }
 
     .content-donate {
         padding-top: 30px;
@@ -853,14 +882,13 @@
     }
 
     .donate__container {
-        padding: 31px 0 31px 0;
+        padding: 19px 0 31px 0;
     }
 
     .donate__container>img {
         width: 810px;
         height: 40px;
     }
-
 
     .donate-body {
         padding: 0 20px;
@@ -869,7 +897,7 @@
     .title__donate {
         font-size: 24px;
         line-height: 120%;
-        margin-bottom: 20px;
+        margin-bottom: 19px;
     }
 
     .decription__donate {
@@ -879,11 +907,11 @@
     }
 
     .title_donate-container {
-        margin-bottom: 20px;
+        margin: 9px 0 22px 0px;
     }
 
     .subtitle_donate-container {
-        margin-bottom: 50px;
+        margin: 0px auto 50px auto;
     }
 
     .image__donate-animals {
@@ -917,6 +945,23 @@
 
     .grey-line {
         width: 520px;
+    }
+
+    .donate-number {
+        gap: 66px;
+    }
+
+    .text_panda {
+        margin-left: -9px;
+    }
+
+    .another_amount {
+        width: 181px;
+        height: 41px;
+    }
+
+    .donate__radiobuttons {
+        margin-top: 32px;
     }
 
 }
