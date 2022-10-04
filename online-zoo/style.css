@@ -20,7 +20,7 @@ input::-webkit-inner-spin-button {
 body {
   font-family: "Roboto";
   font-style: normal;
-  background-color: #E5E5E5;
+  background-color: #FFFFFF;
 }
 
 ul,
@@ -42,7 +42,6 @@ button {
 .header {
   position: absolute;
   width: 100%;
-  max-width: 1600px;
   height: 80px;
   z-index: 2;
   top: 0;
@@ -101,7 +100,7 @@ button {
   display: flex;
   align-items: center;
   height: 100%;
-  gap: 58px;
+  gap: 48px;
 }
 
 .nav-item a {

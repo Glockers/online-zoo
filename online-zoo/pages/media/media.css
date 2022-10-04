@@ -1,7 +1,7 @@
 @media (min-width: 1600px) {
     body {
-        max-width: 1600px;
-        margin: 0 auto;
+        max-width: 100%;
+        margin: 0 0;
     }
 }
 
@@ -12,7 +12,7 @@
     }
 
     .pets {
-        height: 950px;
+        height: 1076px;
         padding-top: 0px;
     }
 
@@ -36,9 +36,9 @@
         height: 180px;
     }
 
-    .pets-choose-button {
+    .pick .pets-choose-button {
         display: block;
-        margin: 0 auto;
+        margin: -31px auto 0 auto;
         letter-spacing: -1px;
         border-radius: 25px;
     }
@@ -47,7 +47,7 @@
         grid-template-columns: repeat(3, 294px);
         grid-template-rows: repeat(2, 354px);
         row-gap: 85px;
-        margin-bottom: 50px;
+        margin-bottom: 139px;
     }
 
     .pet-item {
@@ -61,7 +61,7 @@
     }
 
     .pets-button {
-        top: 360px
+        top: 369px;
     }
 
     .pets-button-right {
@@ -98,7 +98,7 @@
     }
 
     .panda-wrapper {
-        padding-top: 64px;
+        padding-top: 72px;
         padding-right: 86px;
     }
 
@@ -110,44 +110,96 @@
     }
 
     .panda-button {
-        margin-top: 53px;
+        margin-top: 49px;
     }
 
     .circle {
         width: 367px;
         height: 367px;
-        top: 15px;
+        top: 21px;
         left: -58px;
     }
 
     .backstage {
         height: 615px;
-        padding: 100px 0;
+        padding: 109px 0 100px 0;
+        margin-bottom: 54px;
+    }
+
+    .backstage-cap>img {
+        height: 408px;
+        max-width: 454px;
+        object-fit: cover;
+    }
+
+    .backstage-title {
+        margin: -10px 0 0 2px;
+    }
+
+    .undertitle {
+        margin: 22px 0 0 2px;
+    }
+
+    .backstage-subtitle {
+        margin: 55px 0 0 2px;
+    }
+
+    .undersubtitle {
+        margin: 35px 0 0 3px;
     }
 
     .pick {
         padding: 30px 30px 50px 30px;
-        height: 915px;
+        height: 875px;
     }
 
     .pick-container {
-        height: 835px;
+        height: 795px;
         padding: 30px;
         background: rgba(253, 253, 255, 0.52);
         border-radius: 20px;
         margin-bottom: 50px;
     }
 
+    .pick-subtitle {
+        margin: 19px 0 0 19px;
+    }
+
     .pick-pretext {
-        margin-top: 20px;
+        margin: 20px 0 0 19px;
+        padding-right: 47px;
+    }
+
+    .pick-text {
+        margin: 10px 0 0 19px;
+        padding-right: 3px;
     }
 
     .pick-block2 {
-        margin-top: 30px;
+        margin-top: 41px;
+    }
+
+    .pick-item-description {
+        margin: 30px 0 0 1px;
+    }
+
+    .pick-works-wrapper>img {
+        width: 69px;
+        height: 35.08px;
+        margin: 60.5px 32px 0 30px;
     }
 
     .pick-works-wrapper {
         margin-bottom: 100px;
+    }
+
+    .testimonials {
+        padding-top: 101px;
+        height: 843px;
+    }
+
+    .testimonials__title {
+        margin-bottom: 30px;
     }
 
     .testimonials__container {
@@ -165,8 +217,8 @@
     }
 
     .testimonials-image-right {
-        height: 350px;
-        bottom: -85px;
+        height: 329px;
+        bottom: -88px;
     }
 
     .testimonials__column {
@@ -179,7 +231,11 @@
     }
 
     .button-testiminials {
-        margin-left: 30px;
+        margin: 53px 0 0 30px;
+    }
+
+    .line_scrol {
+        width: 405px;
     }
 
     .footer__container {
@@ -193,8 +249,8 @@
 
     .middle-container {
         position: relative;
-        left: 180px;
-        bottom: 10px;
+        left: 190px;
+        bottom: 29px;
     }
 
     .footer-right-container {
@@ -205,16 +261,35 @@
         max-width: 380px;
     }
 
+    .right-container-subtitle {
+        margin: -8px 0 0 -23px;
+    }
+
+    .footer__input {
+        margin: 12px 0px 0 -22px;
+    }
+
+    .footer-submit {
+        width: 129px;
+        margin-left: 5px;
+    }
+
     .footer-author {
         position: absolute;
-        left: 120px;
-        bottom: -20px;
+        left: 148px;
+        bottom: 9px;
     }
 
     .content-donate {
         padding-top: 40px;
         width: 100%;
         max-width: 1160px;
+    }
+
+    .panda-donate {
+        background-position: -172px -36px;
+        background-size: 1600px;
+        height: 470px;
     }
 
     .donate-body {
@@ -237,7 +312,8 @@
 @media (max-width: 1150px) {
 
     .content-donate {
-        padding-top: 30px;
+        padding-top: 41px;
+        height: 1333px;
     }
 
     .subtitle__donate {
@@ -245,7 +321,8 @@
     }
 
     .donate__container {
-        padding: 20px 45px 0 45px;
+        padding: 20px 66px 0 66px;
+        height: 918px;
     }
 
     .donate__container>img {
@@ -253,18 +330,66 @@
         height: 40px;
     }
 
+    .title__donate {
+        margin-bottom: 29px;
+        padding-right: 92px;
+    }
 
     .donate-body {
         padding: 0 30px;
     }
 
-    .donate-range {
-        width: 860px;
+    .decription__donate {
+        margin-bottom: 47px;
+    }
 
+    .title_donate-container {
+        margin: 0px 0 12px -16px;
+    }
+
+    .subtitle_donate-container {
+        margin: 1px -28px 60px -34px;
+    }
+
+    .image__donate-animals {
+        margin-bottom: 55px;
+    }
+
+    .donate__number {
+        margin: 87px 28px 0 0;
+    }
+
+    .number_panda {
+        margin-right: 28px;
+    }
+
+    .donate-progress {
+        margin-left: -29px;
+    }
+
+    .donate-range {
+        width: 809px;
+        align-items: center;
     }
 
     .range-circle__item:nth-child(1) {
         display: none;
+    }
+
+    .donate-number {
+        gap: 65px;
+    }
+
+    .radiobutton-item {
+        margin-left: -21px;
+    }
+
+    .donate__radiobuttons {
+        gap: 73px;
+    }
+
+    .donate-number__item {
+        width: 100%;
     }
 
     .donate-number__item:nth-child(1) {
@@ -582,6 +707,7 @@
         padding: 60px 0px 80px;
         overflow: hidden;
         height: min-content;
+        height: 919px;
     }
 
     .testimonials__container {
@@ -678,6 +804,14 @@
         margin: 0;
     }
 
+    .footer_img {
+        margin-right: 8px;
+    }
+
+    .footer-list a {
+        top: 12px;
+    }
+
     .middle-container {
         display: flex;
         align-items: flex-end;
@@ -697,7 +831,6 @@
         left: 0;
         bottom: 0;
         height: 0;
-
     }
 
     .footer-author {
